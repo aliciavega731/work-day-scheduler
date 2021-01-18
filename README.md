@@ -24,4 +24,4 @@ We were tasked with creating a simple calendar application that allows a user to
 
 ## Screenshot
 
-![alt text](.scheduler.png "Work Day Scheduler")
+![alt text](./scheduler.png "Work Day Scheduler")
