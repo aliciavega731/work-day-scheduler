@@ -23,3 +23,5 @@ We were tasked with creating a simple calendar application that allows a user to
 [Link]
 
 ## Screenshot
+
+![alt text](.scheduler.png "Work Day Scheduler")
