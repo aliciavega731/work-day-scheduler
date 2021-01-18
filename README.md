@@ -20,7 +20,7 @@ We were tasked with creating a simple calendar application that allows a user to
 
 ## Deployed Application
 
-[Link]
+https://aliciavega731.github.io/work-day-scheduler/
 
 ## Screenshot
 
