@@ -17,23 +17,4 @@ $(document).ready(function () {
     
     localStorage.setItem(hourBlock, userInput);
   });
-
-  // Past, present, future
-  $(".time-block").each(function(){
-    var timeBlock = $(this).attr("id");
-    currentHour = moment().hour();
-    if (timeBlock < currentHour) {
-      $(this).addClass("past");
-      $(this).removeClass("present");
-      $(this).removeClass("future");
-      } else if (timeBlock === currentHour) {
-      $(this).removeClass("past");
-      $(this).addClass("present");
-      $(this).removeClass("future");
-      } else if (timeBlock > currentHour) {
-      $(this).removeClass("past");
-      $(this).removeClass("present");
-      $(this).addClass("future");
-      }
-    });
 });
