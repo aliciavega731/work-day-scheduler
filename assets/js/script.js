@@ -2,9 +2,11 @@ $(document).ready(function () {
   // Current day at the top of the page
   $("#currentDay").text(moment().format("dddd, MMMM Do, YYYY h:mm a"));
 
-  // Get items from localstorage
+  // Get items from localstorage. This part is missing.
 
-  // From modules. Set item to localstorage
+  
+
+  // From modules -- Set item to localstorage
   $(".saveBtn").on("click", function() {
     var userInput = $(this)
       .siblings(".description")
@@ -16,7 +18,5 @@ $(document).ready(function () {
     localStorage.setItem(hourBlock, userInput);
   });
 
- 
-
-
+  // Figure out past, present, future
 });
